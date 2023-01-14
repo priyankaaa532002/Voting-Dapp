@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vote Game</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <h1><center>VOTE GAME</center></h1>
+    </header>
+    <center><div class="container">
+        <div class="card">
+          <div class="card-header">
+            <img src="cat.jpg" alt="cat" />
+          </div>
+          <div class="card-body">
+            <span class="tag tag-teal" onclick="voteCat()">VOTE FOR CATTY</span>
+            <h2 id="2">
+              0
+            </h2>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <img src="duck.jpg" alt="duck" />
+          </div>
+          <div class="card-body">
+            <span class="tag tag-purple" onclick="voteDuck()">VOTE FOR DUCKY</span>
+            <h2 id="1">
+              0
+            </h2>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <img src="dog.jpg" alt="dog" />
+          </div>
+          <div class="card-body">
+            <span class="tag tag-pink" onclick="voteDog()">VOTE FOR DOGGU</span>
+            <h2 id="0">
+              0
+            </h2>
+          </div>
+        </div>
+    </center>
+<script
+        src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.4-rc.0/web3.min.js"
+        integrity="sha512-RGPKVfQewHGfk9yaB7ThGPKAQU+civS5awsfStLg22jrWbqgDkNzPtIwNFpFApr3ccjB730SRxi+KnDjhIuTpw=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      ></script>
+    <script src="script.js"></script>
+</body>
+</html>
